@@ -3,32 +3,54 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/styles.css" rel="stylesheet" />
     <title>Studio</title>
   </head>
   <body>
+    <!--Header-->
     <header>
-      <a href="index.html">
-        <h1 class="logo">WebStudio</h1>
+      <a class="link-class" href="index.html">
+        <h1 class="logo">
+          Web<span class="logo-secondary-color">Studio</span>
+        </h1>
       </a>
-      <nav>
-        <ul>
-          <li><a href="index.html">Studio</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="#">Contacts</a></li>
+      <nav class="main-navigation">
+        <ul class="list-class">
+          <li><a class="link-class" href="index.html">Studio</a></li>
+          <li><a class="link-class" href="portfolio.html">Portfolio</a></li>
+          <li><a class="link-class" href="#">Contacts</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+1-212-772-4150">+1-212-772-4150</a></li>
-      </ul>
-    </header>
-    <main>
-      <section>
-        <h2>EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h2>
-        <button type="button">Request our service</button>
+      <section class="main-navigation">
+        <ul class="list-class">
+          <li>
+            <a class="contact-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="contact-link" href="tel:+1-212-772-4150"
+              >+1-212-772-4150</a
+            >
+          </li>
+        </ul>
       </section>
+    </header>
+    <!--Main-->
+    <main>
+      <section class="effective-solutions">
+        <h2 class="effective-solutions-text">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h2>
+        <button class="request-our-service" type="button">Request our service</button>
+        </section>
+      </div>
       <div>
-        <ul>
+        <ul class="list-class">
           <li>
             <p><b>ATTENTION TO DETAILS</b></p>
             <p>
@@ -90,8 +112,8 @@
               alt="product-designer-portrait"
               width="270"
             />
-            <h4>Christopher Walker</h4>
-            <p>Product Designer</p>
+            <h4 class="primary-text">Christopher Walker</h4>
+            <p class="secondary-text">Product Designer</p>
           </div>
 
           <div>
@@ -100,8 +122,8 @@
               alt="frontend-developer-portrait"
               width="270"
             />
-            <h4>Kylie Evans</h4>
-            <p>Frontend Developer</p>
+            <h4 class="primary-text">Kylie Evans</h4>
+            <p class="secondary-text">Frontend Developer</p>
           </div>
 
           <div>
@@ -110,8 +132,8 @@
               alt="marketing-person"
               width="270"
             />
-            <h4>Ryan Harris</h4>
-            <p>Marketing</p>
+            <h4 class="primary-text">Ryan Harris</h4>
+            <p class="secondary-text">Marketing</p>
           </div>
 
           <div>
@@ -120,22 +142,30 @@
               alt="ui-designer-portrait"
               width="270"
             />
-            <h4>Tyler Moore</h4>
-            <p>UI Designer</p>
+            <h4 class="primary-text">Tyler Moore</h4>
+            <p class="secondary-text">UI Designer</p>
           </div>
         </div>
       </section>
     </main>
+    <!--Footer-->
     <footer>
-      <section>
-        <a href="index.html">
-          <h2>WebStudio</h2>
+      <section class="footer-section">
+        <a class="link-class" href="index.html">
+          <h2 class="logo">Web<span class="logo-footer-color">Studio</span></h2>
         </a>
-        <address>
-          <ul>
-            <li>695 Park Ave, NY 10065, USA</li>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+1-212-772-4150">+1-212-772-4150</a></li>
+        <address class="footer-contact">
+          <ul class="list-class">
+            <li class="physical-address">695 Park Ave, NY 10065, USA</li>
+            <li>
+              <a class="footer-link-class" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a>
+
+            </li>
+            <li>
+              <a class="footer-link-class" href="tel:+1-212-772-4150"
+                >+1-212-772-4150</a>
+            </li>
           </ul>
         </address>
       </section>

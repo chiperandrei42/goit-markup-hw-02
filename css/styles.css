@@ -1,0 +1,134 @@
+:root {
+    --default-text-color: #212121;
+    --text-hover-color: #2196F3;
+    --subtext-color: #757575;
+    --heading-font-family: 'Roboto', sans-serif;
+    --logo-font-family: 'Raleway', sans-serif;
+    --secondary-bg-color: #2F303A;
+    --buttons-color: #F5F4FA;
+}
+
+body {
+    font-family: var(--heading-font-family);
+}
+
+.main-navigation .link-class {
+    color:var(--default-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: normal;
+}
+
+.link-class {
+    text-decoration: none;
+}
+
+.main-navigation .contact-link {
+    text-decoration: none;
+    color: var(--subtext-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: normal;
+}
+
+.main-navigation a:hover {
+    color:var(--text-hover-color);
+}
+
+.logo {
+    text-decoration: none;
+    color: var(--text-hover-color);
+        font-family: var(--logo-font-family);
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 162.5%;
+}
+
+.logo-secondary-color {
+    color: var(--default-text-color);
+}
+
+.buttons .button {
+    font-family: var(--heading-font-family);
+    background-color: var(--buttons-color);
+    border: none;
+    border-radius: 2px;
+    line-height: 162.5%;
+    cursor:pointer;
+}
+
+.button:hover {
+    background-color:var(--text-hover-color)
+}
+
+.list-class {
+    list-style-type: none;
+}
+
+.primary-text {
+    font-family: var(--heading-font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 200%
+}
+
+.secondary-text {
+    font-family: var(--heading-font-family);
+    color:var(--subtext-color);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 200%;
+        line-height: normal;
+}
+
+.footer-section {
+    background-color: var(--secondary-bg-color)
+}
+
+.logo-footer-color {
+    color:white;
+}
+
+.footer-contact {
+    font-style: normal;
+}
+
+.physical-address {
+
+    color:white;
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: normal;
+}
+
+.footer-link-class {
+    font-family: var(--heading-font-family);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: normal;
+        color:var(--subtext-color);
+        text-decoration: none;
+}
+.footer-contact a:hover {
+    color: var(--text-hover-color);
+}
+
+.request-our-service {
+    font-family: var(--heading-font-family);
+        background-color: var(--text-hover-color);
+        border: none;
+        border-radius: 2px;
+        line-height: 162.5%;
+        cursor: pointer;
+        color:white;
+}
+
+.effective-solutions {
+    background-color: var(--secondary-bg-color);
+
+}
+
+.effective-solutions-text {
+    color:white;
+}
