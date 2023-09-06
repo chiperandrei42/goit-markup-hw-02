@@ -50,7 +50,6 @@ body {
 }
 
 .buttons .button {
-    font-family: var(--heading-font-family);
     background-color: var(--buttons-color);
     border: none;
     border-radius: 2px;
@@ -67,14 +66,12 @@ body {
 }
 
 .primary-text {
-    font-family: var(--heading-font-family);
     font-weight: 700;
     font-size: 18px;
     line-height: 200%
 }
 
 .secondary-text {
-    font-family: var(--heading-font-family);
     color:var(--subtext-color);
         font-weight: 400;
         font-size: 16px;
@@ -103,7 +100,6 @@ body {
 }
 
 .footer-link-class {
-    font-family: var(--heading-font-family);
         font-size: 14px;
         font-weight: 400;
         line-height: normal;
@@ -115,7 +111,6 @@ body {
 }
 
 .request-our-service {
-    font-family: var(--heading-font-family);
         background-color: var(--text-hover-color);
         border: none;
         border-radius: 2px;
@@ -131,4 +126,24 @@ body {
 
 .effective-solutions-text {
     color:white;
+}
+
+.paragraph-text {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.paragraph-secondary {
+    color:var(--subtext-color);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 171.429%;
+}
+
+.heading-section {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: normal;
 }
