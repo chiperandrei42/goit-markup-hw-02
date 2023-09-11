@@ -13,7 +13,7 @@ body {
     color:var(--default-text-color);
 }
 
-.main-navigation .link-class {
+.link-class {
     color:var(--default-text-color);
     font-weight: 500;
     font-size: 14px;
@@ -62,6 +62,13 @@ body {
     background-color:var(--text-hover-color)
 }
 
+.button:active {
+    background-color: #2175F3;
+}
+
+.button:focus {
+    background-color:#1EA3D9;
+}
 .list-class {
     list-style-type: none;
 }
@@ -117,7 +124,12 @@ body {
         border-radius: 2px;
         line-height: 162.5%;
         cursor: pointer;
-        color:white;
+        color:var(--buttons-color);
+}
+
+.request-our-service:hover {
+    background-color: var(--buttons-color);
+    color:var(--text-hover-color);
 }
 
 .effective-solutions {
@@ -147,4 +159,8 @@ body {
     font-size: 36px;
     font-weight: 700;
     line-height: normal;
+}
+
+.current {
+    color: var(--text-hover-color);
 }
